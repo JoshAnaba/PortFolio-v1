@@ -12,7 +12,6 @@ html{
 body{
     background-color: #031b33;
     color: #fff;
-    min-width: 400px;
     width: 100%;
     -ms-overflow-style: none; 
     scrollbar-width: none;
@@ -534,6 +533,7 @@ body::-webkit-scrollbar{
   /* start of footer */
 
   footer{
+      width: 100%;
       display: flex;
       flex-direction: column;
       align-items: center;
