@@ -15,8 +15,15 @@ body{
     width: 100%;
     -ms-overflow-style: none; 
     scrollbar-width: none;
+    overflow-x: hidden;
 }
 
+@media(max-width: 770px){
+    body>*{
+        width: 100%;
+    }
+    
+}
 body::-webkit-scrollbar{
     display: none;
 }
@@ -290,6 +297,10 @@ body::-webkit-scrollbar{
     flex: 4;
 }
 
+#my-photo:hover{
+    transform: scale(1.02);
+}
+
 @media(max-width: 850px){
     #about-me{
         padding: 50px;
@@ -346,6 +357,7 @@ body::-webkit-scrollbar{
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
 }
 
 .projects:hover{
@@ -435,13 +447,13 @@ body::-webkit-scrollbar{
         margin: 10px 0;
     }
 
-    .projects div{
+    .pr{
         width: 80vw;
     }
 
-    .projects-div h2{
+    /* .projects-div h2{
         text-align: center;
-    }
+    } */
   }
 
   /* end of projects */
@@ -520,7 +532,8 @@ body::-webkit-scrollbar{
         bottom: 0;
         left: 0;
         width: 350px;
-      margin: auto;
+        margin: auto;
+        height: 50px
     }
 
     .contact-text{
@@ -539,14 +552,16 @@ body::-webkit-scrollbar{
       align-items: center;
       justify-content: center;
       height: 80px;
-      border-top:2px solid rgb(182, 177, 177);
+      /* border-top:2px solid rgb(182, 177, 177); */
   }
 
   footer a{
       text-decoration: none;
       color: #114a83;
+      position: relative;
   }
 
   footer a:hover{
       color:  #0f61b3;
   }
+
