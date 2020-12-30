@@ -197,7 +197,7 @@ body::-webkit-scrollbar{
 #about-me{
     font-size: 22px;
     margin-bottom: 50px;
-    padding: 150px;
+    padding: 100px;
     line-height: 35px;
     display: flex;
 }
@@ -239,7 +239,7 @@ body::-webkit-scrollbar{
 }
 
 .my-photo{
-    margin-top: 80px;
+    margin-top: 150px;
     width: 335px;
     height: 305px;
     border: 2px solid #fff;
@@ -260,9 +260,11 @@ body::-webkit-scrollbar{
     transform: scale(1.02);
 }
 
-@media(max-width: 770px){
+
+    
+@media(max-width: 900px){
     #about-me{
-        padding: 20px;
+        padding: 70px;
         flex-direction: column;
     }
 
@@ -282,15 +284,8 @@ body::-webkit-scrollbar{
         margin: 5px;
     }
 
-    #my-photo{
-        left: 0;
-        bottom: 0;
-        width: 100%;
-    }
-
     .my-photo{
         margin: auto;
-        border: none;
     }
 
 }
@@ -472,6 +467,10 @@ body::-webkit-scrollbar{
 
     .contact-text{
         width: 90%;
+    }
+
+    #contact-div{
+        padding: 100px 30px;
     }
   }
 
