@@ -279,7 +279,7 @@ body::-webkit-scrollbar{
         height: auto;
         flex-wrap: nowrap;
     }
-
+    
     #my-tech>li{
         margin: 5px;
     }
