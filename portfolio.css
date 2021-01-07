@@ -1,3 +1,4 @@
+
 *{
     box-sizing: border-box;
     padding: 0;
@@ -29,9 +30,6 @@ body::-webkit-scrollbar{
     }
     
 }
-
-
-
 
 /*  end of general */
 
@@ -112,8 +110,6 @@ body::-webkit-scrollbar{
     color: rgb(182, 177, 177);
 }
 
-
-
 /* start of welcome-section */
 
 
@@ -132,8 +128,38 @@ body::-webkit-scrollbar{
     font-size: 65px;
     margin-bottom: 10px;
     color: #fff;
+    
+ /*start of animation */
+    width: 11ch;
+    animation: typing 1s steps(11), blink .5s step-end alternate;
 }
 
+.pro{
+    width: 24ch;
+    animation: typing 2s steps(22), blink .5s step-end  alternate;
+}
+
+.pro,#name{
+
+    white-space: nowrap;
+    overflow: hidden;
+    /* border-right: 2px solid #fff; */
+}
+
+@keyframes typing{
+    from{
+        width: 0;
+    }
+}
+
+
+@keyframes blink{
+    50%{
+        border-color: transparent
+    }
+}
+
+/* end of animation */
 .hd-1{
     font-size: 65px;
     color: rgb(172, 159, 159);
@@ -502,4 +528,5 @@ body::-webkit-scrollbar{
   footer a:hover{
       color:  #0f61b3;
   }
+
 
