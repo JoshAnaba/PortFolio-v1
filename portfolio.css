@@ -372,11 +372,11 @@ body::-webkit-scrollbar{
 
 .projects span span{
     margin: 3px;
-    color: rgb(170, 167, 167);
+    color: #fff;
     font-size: 12px;
 }
 
-.projects:hover span{
+.projects span{
     color: #fff;
 }
 
@@ -384,10 +384,6 @@ body::-webkit-scrollbar{
     color: #042f5a;
     transition: color 0.3s ease-out;
     margin: 0px 5px;
-  }
-
-.projects:hover .code {
-    color: #fff;
   }
 
   @media(max-width: 770px){
