@@ -281,7 +281,7 @@ body::-webkit-scrollbar{
     
 @media(max-width: 900px){
     #about-me{
-        padding: 70px;
+        padding: 50px 40px;
         flex-direction: column;
     }
 
@@ -483,7 +483,7 @@ body::-webkit-scrollbar{
     }
 
     #contact-div{
-        padding: 100px 30px;
+        padding: 60px 20px;
     }
   }
 
