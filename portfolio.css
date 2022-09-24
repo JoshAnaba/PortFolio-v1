@@ -185,7 +185,8 @@ body::-webkit-scrollbar {
 @media (max-width: 500px) {
 }
 
-.mail-btn {
+.mail-btn,
+.see-more-btn {
   text-align: center;
   width: 180px;
   margin-top: 30px;
@@ -299,6 +300,12 @@ body::-webkit-scrollbar {
 
 #projects {
   padding: 90px;
+}
+
+#projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .project-tile {
