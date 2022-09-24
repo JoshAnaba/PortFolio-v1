@@ -323,6 +323,10 @@ body::-webkit-scrollbar {
   background-color: #114a83;
 }
 
+.projects:hover .code {
+  display: inline;
+}
+
 .projects img {
   width: 100%;
   height: 200px;
@@ -369,6 +373,7 @@ body::-webkit-scrollbar {
   color: #042f5a;
   transition: color 0.3s ease-out;
   margin: 0px 5px;
+  display: none;
 }
 
 @media (max-width: 770px) {
