@@ -5,3 +5,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
 
     copyright.innerHTML = `Copyright&copy; ${date}`
 })
+
+function goTo(link) {
+    window.open(`https://${link}`, '_blank');
+}
